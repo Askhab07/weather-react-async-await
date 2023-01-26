@@ -1,0 +1,79 @@
+.card__weather {
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+    height: 312px;
+    border-radius: 20px;
+    margin-bottom: 47px;
+}
+
+.day {
+    background: url('./assets/day-bg.gif') no-repeat;
+    background-size: cover;
+}
+
+.night {
+    background: url('./assets/night-bg.gif') no-repeat ;
+    background-size: cover;
+}
+
+h2 {
+    margin-top: 39px;
+    margin-left: 71px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFF;
+}
+
+.region {
+    margin-left: 71px;
+    margin-top: 9px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.data {
+    margin-left: 71px;
+    margin-top: 107px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.sun {
+    margin-right: -30px;
+    margin-top: 30px;
+}
+
+.temp_c {
+    margin-right: 30px;
+    margin-bottom: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFF;
+}
+
+.temp_f {
+    margin-bottom: 34px;
+    margin-top: 91px;
+    margin-right: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
